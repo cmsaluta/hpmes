@@ -1,0 +1,19 @@
+#kt_login {
+    height: 100vh !important;
+    background-image: url("/assets/media/bg/bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@media (max-height: 768px) and (max-width: 1360px) {
+    body {
+        zoom: 80%;
+      
+    }
+
+    #kt_login {
+        height: 125vh !important;
+    }
+}

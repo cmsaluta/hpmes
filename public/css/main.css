@@ -1,0 +1,54 @@
+#kt_body {
+    height: 100vh;
+    display: flex;
+}
+
+.brand-logo img {
+    width: 158px;
+}
+
+.card-sticky-on-custom {
+    z-index: 90;
+    top: 119px;
+    left: 290px;
+    right: 25px;
+}
+
+.card-sticky-on-custom2 {
+    z-index: 90;
+    top: 119px;
+    left: 161px;
+    right: 90px;
+}
+
+.select2 {
+    margin-bottom: 0.5rem !important;
+    width: 100% !important;
+}
+
+#kt_datatable_modal .select2-container {
+    background-color: #e9ecef !important;
+}
+
+.modal-date {
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+.modal-status {
+    font-size: 13px !important;
+    padding: 20px !important;
+}
+
+@media only screen and (max-width: 1500px) {
+    #kt_body {
+        zoom: 90%;
+        height: 110vh;
+    }
+    .modal-backdrop {
+        width: 1000vh;
+        height: 1000vh;
+        overflow: hidden;
+    }
+}
